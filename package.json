@@ -1,0 +1,16 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "license": "MIT",
+  "dependencies": {
+    "parcel": "^2.6.0"
+  },
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.6.0"
+  }
+}

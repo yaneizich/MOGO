@@ -1,0 +1,92 @@
+.amazing-services--head {
+    display: flex;
+    flex-direction: column;
+}
+
+.amazing-services--items {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    margin: 80px 0 91px;
+
+    row-gap: 140px;
+    column-gap: 30px;
+}
+
+.items--advantages {
+    max-width: 370px;
+    min-height: 139px;
+    display: flex;
+}
+
+.wrapper-inner {
+
+}
+
+.items--advantages--title {
+    padding: 20px 0 0 30px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #2D3033;
+}
+
+.items--advantages--text {
+    padding: 31px 0 0 30px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #2D3033;
+}
+
+@media (max-width: 1024px) {
+    .amazing-services--items {
+
+        margin: 80px 0 91px;
+    
+        row-gap: 59px;
+        column-gap: 25px;
+    }
+    
+    .items--advantages {
+        max-width: 313px;
+        min-height: 117px;
+        display: flex;
+    }
+    
+    
+    .items--advantages--title {
+        padding: 25px 0 0 25px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    
+    .items--advantages--text {
+        padding: 25px 0 0 25px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+@media (max-width: 740px) {
+    .amazing-services--items {
+        display: grid;
+
+        grid-template-columns: 1fr;
+        margin: 80px 0 91px;
+    
+        row-gap: 36px;
+        margin: auto;
+    }
+    
+    .items--advantages {
+        max-width: 288px;
+        min-height: 94px;
+        margin: auto;
+    }
+}
